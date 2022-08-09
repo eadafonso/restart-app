@@ -16,6 +16,7 @@
 		6A97AE59289C470B003AE8FF /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A97AE57289C470B003AE8FF /* chimeup.mp3 */; };
 		6A97AE61289C4F60003AE8FF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A97AE60289C4F60003AE8FF /* OnboardingView.swift */; };
 		6A97AE63289C4F9B003AE8FF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A97AE62289C4F9B003AE8FF /* HomeView.swift */; };
+		6AE7A6F028A2D5B300D3262A /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE7A6EF28A2D5B300D3262A /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6A97AE5F289C4AF2003AE8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6A97AE60289C4F60003AE8FF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		6A97AE62289C4F9B003AE8FF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6AE7A6EF28A2D5B300D3262A /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		6A97AE5E289C4907003AE8FF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				6AE7A6EF28A2D5B300D3262A /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				6A97AE63289C4F9B003AE8FF /* HomeView.swift in Sources */,
 				6A97AE4B289C4616003AE8FF /* ContentView.swift in Sources */,
 				6A97AE49289C4616003AE8FF /* RestartApp.swift in Sources */,
+				6AE7A6F028A2D5B300D3262A /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
